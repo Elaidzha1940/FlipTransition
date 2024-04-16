@@ -1,9 +1,11 @@
+//  /*
 //
-//  FlipTransitionApp.swift
-//  FlipTransition
+//  Project: FlipTransition
+//  File: FlipTransitionApp.swift
+//  Created by: Elaidzha Shchukin
+//  Date: 16.04.2024
 //
-//  Created by Elaidzha Shchukin on 16.04.2024.
-//
+//  */
 
 import SwiftUI
 
