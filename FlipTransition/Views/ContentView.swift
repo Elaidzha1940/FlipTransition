@@ -33,8 +33,8 @@ struct ContentView: View {
                 }
                 .font(.system(size: 25, weight: .semibold, design: .rounded))
                 .padding()
-                .background(Color(.label))
-                .foregroundStyle(Color(.gray))
+                .background(Color(.clear))
+                .foregroundStyle(.white)
                 .cornerRadius(20)
                 .padding(30)
             }
