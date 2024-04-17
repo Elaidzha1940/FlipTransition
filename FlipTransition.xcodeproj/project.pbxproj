@@ -36,6 +36,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E4696C9C2BCF587200DCCA87 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4A1FE432BCEE45C00CF6F97 /* ContentView.swift */,
+				E4696C982BCF491F00DCCA87 /* Front.swift */,
+				E4696C9A2BCF525800DCCA87 /* Back.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		E4A1FE352BCEE45C00CF6F97 = {
 			isa = PBXGroup;
 			children = (
@@ -56,11 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				E4A1FE412BCEE45C00CF6F97 /* FlipTransitionApp.swift */,
-				E4A1FE432BCEE45C00CF6F97 /* ContentView.swift */,
+				E4696C9C2BCF587200DCCA87 /* Views */,
 				E4A1FE452BCEE45D00CF6F97 /* Assets.xcassets */,
 				E4A1FE472BCEE45D00CF6F97 /* Preview Content */,
-				E4696C982BCF491F00DCCA87 /* Front.swift */,
-				E4696C9A2BCF525800DCCA87 /* Back.swift */,
 			);
 			path = FlipTransition;
 			sourceTree = "<group>";

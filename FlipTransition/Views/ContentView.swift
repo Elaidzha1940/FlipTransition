@@ -33,12 +33,12 @@ struct ContentView: View {
                 }
                 .font(.system(size: 25, weight: .semibold, design: .rounded))
                 .padding()
-                .background(Color.black.gradient)
-                .foregroundStyle(.white)
+                .background(Color(.label))
+                .foregroundStyle(Color(.gray))
                 .cornerRadius(20)
                 .padding(30)
             }
-            .navigationTitle("Flip")
+            .navigationTitle("Threads Flip")
         }
     }
 }
