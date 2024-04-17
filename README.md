@@ -1,7 +1,7 @@
 ⌨️ Flip Transitions. 
 =======
 
-Bring your SwiftUI apps to life with captivating 3D card flips! ✨
+Bring your SwiftUI apps to life with captivating 3D card flips.
 -------
 
 Unleash the power of SwiftUI's Card Rotation Effect and create unforgettable user experiences. Imagine tapping a card and watching it magically flip to reveal hidden content. Smooth, eye-catching animations add a touch of wow factor and elevate your projects to the next level.
