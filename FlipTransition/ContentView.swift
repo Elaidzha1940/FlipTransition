@@ -17,12 +17,10 @@ struct ContentView: View {
             VStack {
                 ZStack {
                     if flipCard {
-                        RoundedRectangle(cornerRadius: 20)
-                            .fill(.gray.gradient)
+                        Front()
                             .transition(.reverseFlip)
                     } else {
-                        RoundedRectangle(cornerRadius: 20)
-                            .fill(.black.gradient)
+                        Back()
                             .transition(.flip)
                     }
                 }
@@ -59,7 +57,7 @@ struct FlipTransition: ViewModifier, Animatable {
     
     func body(content: Content) -> some View {
         content
-            .opacity(progress < 0 ? (-progress < 0.5 ? 2 : 1) : (progress < 0.5 ? 2 : 1))
+            .opacity(progress < 0 ? (-progress < 0.5 ? 1 : 0) : (progress < 0.5 ? 1 : 0))
             .rotation3DEffect(
                 .init(degrees: progress * 180),
                 axis: (x: 0.0, y: 1.0, z: 0.0)
