@@ -23,7 +23,7 @@ struct Front: View {
                 }
                 Spacer()
                 
-                Image(systemName: "person")
+                Image(systemName: "book.pages.fill")
                     .font(.system(size: 50, weight: .heavy))
             }
             .padding(.horizontal)
@@ -50,7 +50,7 @@ struct Front: View {
             .padding(.horizontal)
             
             // QR Image
-            Image(systemName: "person")
+            Image(systemName: "qrcode")
                 .font(.system(size: 50, weight: .heavy))
                 .padding(.horizontal)
             

@@ -12,7 +12,7 @@ import SwiftUI
 struct Back: View {
     var body: some View {
         VStack {
-            Image(systemName: "person")
+            Image(systemName: "book.pages.fill")
                 .font(.system(size: 150, weight: .heavy))
         }
         .frame(width: 320, height: 420)
